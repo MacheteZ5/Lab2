@@ -1,0 +1,25 @@
+﻿@model Lab1.Models.Juegos
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Parte1</title>
+</head>
+<body>
+    <div>
+        <label>nombre: @Model.nombre<br /></label>
+        <label>id: @Model.Id<br /></label>
+        <label>estudio: @Model.estudio<br /></label>
+        <label>puntuacion: @Model.puntuacion<br /></label>
+        <label>categoria: @Model.categoria<br /></label>
+        <label>Tiempo que se tarda: @Model.resultadoTiempo<br /></label>
+        <label>pid: @Model.resultadoTiempoPID</label>
+    </div>
+</body>
+</html>
